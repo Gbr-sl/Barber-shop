@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sora:wght@100..800&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 98vw;
+    height: 100vh;
+    background-color: white;
+    font-family: sora, sans-serif;
+}
+
+header{
+    background-image: url(imgs/pexels-thgusstavo-1813272.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 98.3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redesSociais{
+    display: ;
+}
+
+.fa-brads{
+    color: white;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+}
+
+.btn-contato{
+    margin-top: 0px;
+    background-color: #d94140;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-contato:hover{
+    background-color: #d85f5f;
+}
+
+.header-container{
+    transform: translate(0px, -200px);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.mand-header{
+    align-self: center;
+    width: 600px;
+    text-align: center;
+    color: white;
+    gap: 20px;
+}
+
+.agendar-horario{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d94140;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.agendar-horario:hover{
+    background-color: #d85f5f;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main>h2{
+    margin-top: 100px;
+    color: white;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    background-color: #040f1a;
+    border-radius: 0 0 10px 10px;
+    width: 98.6vw;
+    padding-bottom: 150px;
+}
+
+.img-sobre{
+    width: 40vw;
+}
+
+.sobre-textos > h2{
+    text-align: start;
+}
+
+.sobre-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 400px;
+    text-align: start;
+}
+
+.servicos{
+    padding-top: 100px;
+    color: #040f1a;
+    text-align: center;
+}
+
+.servicos>h2{
+    font-size: 2em;
+}
+
+.servicos>p{
+    text-align: center;
+    width: 30vw;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.preco1, .preco2, .preco3, .preco4{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.062);
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.texto-preco{
+    background-color: #040f1a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.btn-agendar{
+
+    background-color: #d94140;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn-agendar:hover{
+    background-color: #d85f5f;
+}
+
+.preco1{
+    background-image: url(imgs/pexels-nickoloui-1319461.jpg);
+    background-position: center;
+}
+
+
+.preco2{
+    background-image: url(imgs/pexels-zvolskiy-1805600.jpg);
+    background-position: center;
+}
+
+.preco3{
+    background-image: url(imgs/pexels-alexandre-saraiva-carniato-583650-5568408.jpg);
+    background-position: center;
+}
+
+.preco4{
+    background-image: url(imgs/pexels-thgusstavo-2809652.jpg);
+    background-position: center;
+}
+
+iframe{
+    display: block;
+    margin: 100px auto 100px auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+}
+
+form>h2{
+    color: #040f1a;
+    padding-bottom: 30px;
+}
+
+.email, .telefone{
+    margin-top: 20px;
+    color: white;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #040f1a70;
+}
+
+.btnEnviar{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: #d94140;
+}
+
+.btnEnviar:hover{
+    background-color: #d85f5f;
+    border-color: none;
+    color: white;
+}
+
+footer{
+    width: 98.3vw;
+    height: 250px;
+    background-color: #0c2135;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer-redessociais>a, .footer-sobre>a, .footer-mais > a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-redessociais, .footer-sobre, .footer-mais{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
