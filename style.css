@@ -7,7 +7,7 @@
 }
 
 body, html{
-    width: 98vw;
+    width: 99.2vw;
     height: 100vh;
     background-color: white;
     font-family: sora, sans-serif;
@@ -17,11 +17,12 @@ header{
     background-image: url(imgs/pexels-thgusstavo-1813272.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 98.3vw;
+    width: 99vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
 }
 
 .redesSociais{
@@ -84,6 +85,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 main>h2{
@@ -124,6 +126,7 @@ main>h2{
     padding-top: 100px;
     color: #040f1a;
     text-align: center;
+    width: 100vvw;
 }
 
 .servicos>h2{
@@ -139,7 +142,7 @@ main>h2{
 
 .preco{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 80px;
@@ -254,12 +257,12 @@ form>h2{
 }
 
 footer{
-    width: 98.3vw;
+    width: 99vw;
     height: 250px;
     background-color: #0c2135;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -267,12 +270,13 @@ footer{
 
 .footer-redessociais>a, .footer-sobre>a, .footer-mais > a{
     text-decoration: none;
-    color: white;
+    color: white;   
 }
+
 
 .footer-redessociais, .footer-sobre, .footer-mais{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     gap: 5px;
     text-align: center;
 }
