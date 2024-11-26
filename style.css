@@ -8,7 +8,7 @@
 }
 
 body, html{
-    width: 100vw;
+    width: 99.2vw;
     height: 100vh;
     background-color: white;
     font-family: sora, sans-serif;
@@ -18,7 +18,7 @@ header{
     background-image: url(imgs/pexels-thgusstavo-1813272.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 99vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -53,10 +53,10 @@ header{
 
 .header-container{
     transform: translate(0px, -200px);
-    margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .mand-header{
@@ -86,7 +86,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    width: 100%;
 }
 
 main>h2{
@@ -102,7 +102,7 @@ main>h2{
     text-align: center;
     background-color: #040f1a;
     border-radius: 0 0 10px 10px;
-    width: 98.6vw;
+    width: 100%;
     padding-bottom: 150px;
 }
 
@@ -158,6 +158,8 @@ main>h2{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.062);
     display: flex;
     align-items: flex-end;
+    overflow: hidden;
+
 }
 
 
@@ -174,8 +176,6 @@ main>h2{
     display: flex;
     flex-direction: column;
     gap: 5px;
-
-
 }
 
 .btn-agendar{
@@ -194,28 +194,29 @@ main>h2{
 
 .preco1{
     background-image: url(imgs/pexels-nickoloui-1319461.jpg);
-    background-position: center;
+    background-position: center -50px;
 }
 
 
 .preco2{
     background-image: url(imgs/pexels-zvolskiy-1805600.jpg);
-    background-position: center;
+    background-position: center -100px; /*movendo a foto um pouco mais para cima*/
 }
 
 .preco3{
     background-image: url(imgs/pexels-alexandre-saraiva-carniato-583650-5568408.jpg);
-    background-position: center;
+    background-position: center -90px;
 }
 
 .preco4{
     background-image: url(imgs/pexels-thgusstavo-2809652.jpg);
-    background-position: center;
+    background-position: center ;
 }
 
 iframe{
-    display: block;
+    display:block;
     margin: 100px auto 100px auto;
+    flex-shrink: 1;
 }
 
 form{
@@ -249,6 +250,7 @@ form>h2{
     margin-bottom: 100px;
     color: white;
     background-color: #d94140;
+    border-color: none;
 }
 
 .btnEnviar:hover{
@@ -258,7 +260,7 @@ form>h2{
 }
 
 footer{
-    width: 99vw;
+    width: 100%;
     height: 250px;
     background-color: #0c2135;
     color: white;
