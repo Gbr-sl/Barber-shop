@@ -17,18 +17,24 @@ body, html{
 header{
     background-image: url(imgs/pexels-thgusstavo-1813272.png);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-position: center;
+    /* background-size: cover;  */
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+
 }
 
 .redesSociais{
     margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: self-start;    
+    
 }
+
 
 .logo{
     width: 300px;
@@ -52,11 +58,13 @@ header{
 }
 
 .header-container{
-    transform: translate(0px, -200px);
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content:;
+    align-items: ;
+    height: 100%;
+    gap: 10%;
+    margin-top: 30px;
 }
 
 .mand-header{
@@ -107,7 +115,7 @@ main>h2{
 }
 
 .img-sobre{
-    width: 40vw;
+    width: 40%;
 }
 
 .sobre-textos > h2{
@@ -127,7 +135,7 @@ main>h2{
     padding-top: 100px;
     color: #040f1a;
     text-align: center;
-    width: 100vvw;
+    width: 100%;
 }
 
 .servicos>h2{
@@ -214,9 +222,14 @@ main>h2{
 }
 
 iframe{
-    display:block;
+    width: 100%;
     margin: 100px auto 100px auto;
-    flex-shrink: 1;
+}
+
+.iframe{
+    width: 50%;
+    height: 500px;
+    margin-bottom: 200px;
 }
 
 form{

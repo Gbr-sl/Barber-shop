@@ -1,0 +1,62 @@
+@media screen and (max-width: 700px) {
+    .btn-contato{
+        display: none;
+    }
+
+    .header-container{
+        align-items: center;
+    }
+
+    .redesSociais{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mand-header{
+        width: 80%;
+    }
+
+    .sobre{
+        gap: 100px;
+    }
+
+    .sobre-textos{
+        align-items: center;
+    }
+
+    .texto-sobre{
+        text-align: center;
+    }
+
+    .img-sobre{
+        width: 80%;
+    }
+
+    .servicos>p{
+        width: 80%;
+    }
+
+    .iframe{
+        width: 80%;
+        height: 500px;
+    }
+
+    form>h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .email, .telefone{
+        width: 80%;
+    }
+
+    .btnEnviar{
+        width: 80%;
+    }
+
+    footer{
+        height: 700px;
+        flex-flow: column;
+    }
+
+}
