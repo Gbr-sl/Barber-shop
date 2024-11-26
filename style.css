@@ -44,7 +44,7 @@ header{
     text-align: center;
     height: 50px;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .btn-contato:hover{
@@ -240,6 +240,7 @@ form>h2{
     border-radius: 20px;
     border-style: none;
     background-color: #040f1a70;
+    flex-shrink: 1;
 }
 
 .btnEnviar{
@@ -283,3 +284,4 @@ footer{
     gap: 5px;
     text-align: center;
 }
+
