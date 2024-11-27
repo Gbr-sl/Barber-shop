@@ -1,8 +1,12 @@
 @media screen and (max-width: 700px) {
-    body{
+    body, html{
         width: 100vw;
     }
     
+    header{
+        height: 800px;
+    }
+
     .btn-contato{
         display: none;
     }
@@ -21,7 +25,7 @@
     }
 
     .sobre{
-        gap: 100px;
+        gap:100px;
     }
 
     .sobre-textos{
@@ -46,7 +50,7 @@
     }
 
     form>h2{
-        width: 100%;
+        width: 70%;
         text-align: center;
     }
 
@@ -61,6 +65,8 @@
     footer{
         height: 700px;
         flex-flow: column;
+        margin: 0;
     }
+
 
 }
