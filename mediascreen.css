@@ -1,6 +1,6 @@
 @media screen and (max-width: 700px) {
     body, html{
-        width: 100vw;
+        
     }
     
     header{
@@ -21,10 +21,11 @@
     }
 
     .mand-header{
-        width: 80%;
+        max-width: 80%;
     }
 
     .sobre{
+        max-width: 100%;
         gap:100px;
     }
 
